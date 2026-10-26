@@ -3,18 +3,12 @@
 Otorrinolaringólogo, especialista en rinoplastía. Pueblo Libre, Lima, Perú.
 El usuario escribe en español; respóndele en español.
 
-## Si la sesión es sobre Carla → lee `docs/carla/ESTADO.md` antes de actuar
+## Si la sesión es sobre Carla → este repo no sirve
 
-**Carla** es la recepcionista virtual de WhatsApp del consultorio. **No vive en este repo** — corre sobre WhatsApp + GoHighLevel, fuera del alcance de Claude salvo que el usuario dé acceso.
-
-`docs/carla/ESTADO.md` es la memoria compartida entre chats: métricas vigentes, hallazgos, correcciones al análisis, cola de desafíos y qué herramientas ya se comprobó que no existen. Léelo completo al empezar y **déjalo actualizado al terminar** (§8 explica cómo).
-
-Tres cosas que ahorran tiempo y ya costaron sesiones enteras:
-
-- **"Carla 3.0" no es una versión del bot** — es el nombre del chat / etapa de trabajo. No hay ningún archivo ni artefacto con ese nombre; no lo busques.
-- **`graphify` no existe** en skills, plugins, registro MCP ni Zapier. No se puede instalar. Si te la piden, pide el export del grafo en vez de buscarla.
-- **GitHub es de solo lectura** en estas sesiones: `git push` da 403. Haz commit igual, y avisa que falta permiso de escritura.
-- **Citas fantasma**: el 41% de las citas que Carla prometía nunca se creaban. El arreglo quedó **mergeado el 05/09/2026**, pero aún **no está verificado** contra datos reales — no lo des por cerrado hasta medir septiembre.
+**Carla** es la recepcionista virtual de WhatsApp del consultorio. **No vive en este repo.**
+Su fuente de verdad es `MAPA-CARLA.md` (y `BITACORA.md`) en el repo privado
+`luisedulive/carla-whatsapp-server`. `docs/carla/ESTADO.md` está **archivado**: no lo
+actualices ni escribas aquí estado, métricas ni datos de pacientes — este repo es público.
 
 ## Qué hay en este repo
 
